@@ -1,0 +1,21 @@
+{
+    "name": "maer/enstart-skeleton",
+    "description": "Skeleton app for maer/enstart framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Eriksson",
+            "email": "mange@reloop.se"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "maer/enstart": "^0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
