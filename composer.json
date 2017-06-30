@@ -14,12 +14,16 @@
         "maer/enstart": "^0.2"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "^2.8"
+        "squizlabs/php_codesniffer": "^2.8",
+        "phpunit/phpunit": "^6.2.1"
     },
     "scripts": {
         "test": [
-            "./vendor/bin/phpcs --standard=PSR2 --extensions=php --ignore=vendor/,config.local.php,logs/,public/ -n -s ./"
-        ]
+            "@cs",
+            "@phpunit"
+        ],
+        "cs": "./vendor/bin/phpcs --standard=PSR2 --extensions=php --ignore=vendor/,logs/ -n -s ./",
+        "phpunit": "./vendor/bin/phpunit --strict-coverage --colors=always"
     },
     "autoload": {
         "psr-4": {
