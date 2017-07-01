@@ -1,6 +1,6 @@
 {
-    "name": "maer/enstart-skeleton",
-    "description": "Skeleton app for maer/enstart framework",
+    "name": "enstart/enstart",
+    "description": "Enstart is (yet another) small PHP frameworks with the essentials for getting started quickly",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "maer/enstart": "^0.2"
+        "enstart/core": "^0.3",
+        "symfony/console": "^3.3"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^2.8",

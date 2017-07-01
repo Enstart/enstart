@@ -23,4 +23,8 @@ return [
         'level' => 'error',
         'file'  => __DIR__ . '/logs/' . date('Ymd') . '.log',
     ],
+
+    'commands' => [
+        'App\Commands\HelloWorldCommand',
+    ],
 ];
