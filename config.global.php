@@ -21,7 +21,7 @@ return [
     'logging' => [
         'name'  => 'enstart',
         'level' => 'error',
-        'file'  => __DIR__ . '/logs/' . date('Ymd') . '.log',
+        'file'  => __DIR__ . '/storage/logs/' . date('Ymd') . '.log',
     ],
 
     'commands' => [
