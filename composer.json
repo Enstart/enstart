@@ -25,7 +25,8 @@
             "@phpunit"
         ],
         "cs": "./vendor/bin/phpcs --standard=PSR2 --extensions=php --ignore=vendor/,logs/ -n -s ./",
-        "phpunit": "./vendor/bin/phpunit --strict-coverage --colors=always"
+        "phpunit": "./vendor/bin/phpunit --strict-coverage --colors=always",
+        "post-install-cmd": "chmod -R 777 storage/"
     },
     "autoload": {
         "psr-4": {
