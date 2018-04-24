@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.0",
-        "enstart/core": "^0.3",
+        "enstart/core": "dev-develop",
         "symfony/console": "^3.3"
     },
     "require-dev": {

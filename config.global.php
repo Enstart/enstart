@@ -10,7 +10,9 @@ return [
     'views' => [
         'path'       => __DIR__ . '/views',
         'extension'  => 'php',
-        'extensions' => [],
+        'extensions' => [
+            'App\Views\ViewExtension'
+        ],
     ],
 
     'providers' => [
